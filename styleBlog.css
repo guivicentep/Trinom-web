@@ -1,0 +1,762 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  font:inherit;
+  vertical-align:baseline;
+  font-family: 'Montserrat';
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+  display:block}body{
+    line-height:1
+  }
+  ol,ul{
+    list-style:none
+  }
+  blockquote,q{
+    quotes:none
+  }
+  blockquote:before,blockquote:after,q:before,q:after{
+    content:'';
+    content:none
+  }
+  table{
+    border-collapse:collapse;
+    border-spacing:0
+  }
+* {
+  box-sizing: border-box;
+}
+.blogtrinom {
+  background-color: white;
+  height: 100vh;
+  margin: 0px;
+  min-height: 3925px;
+  min-width: 1680px;
+  position: relative;
+  width: 100%;
+}
+.blogtrinom .acompanhe--nosso-blog {
+  background-color: transparent;
+  height: auto;
+  left: 232px;
+  position: absolute;
+  text-align: left;
+  top: 140px;
+  width: 1217px;
+}
+.blogtrinom .barra-de-navegacao {
+  background-color: white;
+  height: 576px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1680px;
+}
+.blogtrinom .blog {
+  background-color: transparent;
+  color: var(--cyan-/-aqua);
+  height: auto;
+  left: calc(50.00% + 85px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 117px;
+}
+.blogtrinom .breve-desc--descricao-25uYQs {
+  background-color: transparent;
+  height: auto;
+  left: 1171px;
+  position: absolute;
+  text-align: left;
+  top: 1600px;
+  width: 303px;
+}
+.blogtrinom .breve-desc--descricao-4UFxwe {
+  background-color: transparent;
+  height: auto;
+  left: 144px;
+  position: absolute;
+  text-align: left;
+  top: 1600px;
+  width: 303px;
+}
+.blogtrinom .breve-desc--descricao-JcCKXW {
+  background-color: transparent;
+  height: auto;
+  left: 657px;
+  position: absolute;
+  text-align: left;
+  top: 900px;
+  width: 303px;
+}
+.blogtrinom .breve-desc--descricao-UClmJY {
+  background-color: transparent;
+  height: auto;
+  left: 1171px;
+  position: absolute;
+  text-align: left;
+  top: 900px;
+  width: 303px;
+}
+.blogtrinom .breve-desc--descricao-Z3m5J1 {
+  background-color: transparent;
+  height: auto;
+  left: 144px;
+  position: absolute;
+  text-align: left;
+  top: 900px;
+  width: 303px;
+}
+.blogtrinom .breve-desc--descricao-bGh3dn {
+  background-color: transparent;
+  height: auto;
+  left: 657px;
+  position: absolute;
+  text-align: left;
+  top: 1600px;
+  width: 303px;
+}
+.blogtrinom .button {
+  background-color: var(--dodger-blue);
+  border-radius: 6px;
+  height: 40px;
+  left: 593px;
+  position: absolute;
+  top: 669px;
+  width: 130px;
+}
+.blogtrinom .contato {
+  background-color: white;
+  height: 961px;
+  left: 0px;
+  position: absolute;
+  top: 2473px;
+  width: 1680px;
+}
+.blogtrinom .conteudo-do-blog {
+  background-color: white;
+  height: 1923px;
+  left: 0px;
+  position: absolute;
+  top: 550px;
+  width: 1680px;
+}
+.blogtrinom .download-do-app {
+  background-color: transparent;
+  height: auto;
+  left: 1234px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+.blogtrinom .ellipse-7wTCxV {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.blogtrinom .ellipse-CMvW9s {
+  background-color: transparent;
+  height: 44px;
+  left: 874px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.blogtrinom .icon-yt {
+  background-color: transparent;
+  height: 44px;
+  left: 1526px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.blogtrinom .ellipse-edsI20 {
+  background-color: transparent;
+  height: 44px;
+  left: 810px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.blogtrinom .icon-fb {
+  background-color: transparent;
+  height: 44px;
+  left: 1590px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.blogtrinom .ellipse-iPe1yZ {
+  background-color: transparent;
+  height: 44px;
+  left: 938px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.blogtrinom .icon-lk {
+  background-color: transparent;
+  height: 44px;
+  left: 1462px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.blogtrinom .ellipse-ur51bv {
+  background-color: transparent;
+  height: 44px;
+  left: 745px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.blogtrinom .icon-ig {
+  background-color: transparent;
+  height: 44px;
+  left: 1397px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+
+.blogtrinom .empresa {
+  background-color: transparent;
+  height: auto;
+  left: 850px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+.blogtrinom .enviamos-d--para-voce {
+  background-color: transparent;
+  height: 138.89%;
+  left: 0px;
+  position: absolute;
+  text-align: center;
+  top: 141.67%;
+  width: 100%;
+}
+.blogtrinom .enviar {
+  background-color: transparent;
+  color: white;
+  height: 45.00%;
+  left: 32.31%;
+  position: absolute;
+  text-align: center;
+  top: 27.50%;
+  width: 37.69%;
+}
+.blogtrinom .estamos-co--para-voce {
+  background-color: transparent;
+  height: auto;
+  left: 386px;
+  position: absolute;
+  text-align: left;
+  top: 284px;
+  width: 845px;
+}
+.blogtrinom .fique-mais-imo-de-nos-hO7ArV {
+  background-color: transparent;
+  height: auto;
+  left: 1077px;
+  position: absolute;
+  text-align: right;
+  top: 87px;
+  white-space: nowrap;
+  width: 302px;
+}
+.blogtrinom .fique-mais-imo-de-nos-iPe1yZ {
+  background-color: transparent;
+  height: auto;
+  left: 425px;
+  position: absolute;
+  text-align: right;
+  top: 355px;
+  white-space: nowrap;
+  width: 302px;
+}
+.blogtrinom .footer {
+  background-color: white;
+  height: 489px;
+  left: 0px;
+  position: absolute;
+  top: 3436px;
+  width: 1680px;
+}
+.blogtrinom .home {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% - 446px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 139px;
+}
+
+.blogtrinom .log-in-btn {
+  background-color: white;
+  border: 1px solid var(--dodger-blue);
+  color: #18A0FB;
+  border-radius: 6px;
+  height: 58px;
+  left: 667px;
+  position: absolute;
+  top: 428px;
+  width: 165px;
+}
+
+.blogtrinom .log-in-btn:hover {
+  border-color: #0464A5;
+}
+
+.blogtrinom .logo-trinom-JcnPAY {
+  background-color: transparent;
+  height: 144px;
+  left: 618px;
+  position: absolute;
+  top: 66px;
+  width: 345px;
+}
+.blogtrinom .logo-trinom-WXJCCI {
+  background-color: transparent;
+  height: 315.62%;
+  left: 67.17%;
+  position: absolute;
+  top: 9.38%;
+  width: 198.24%;
+}
+.blogtrinom .mobile-app {
+  background-color: transparent;
+  height: auto;
+  left: 1234px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+
+.blogtrinom .quer-receb-do-premium {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 100%;
+}
+.blogtrinom .rectangle-1nxZ7J {
+  background-color: transparent;
+  background-image: url(imgBlog/organicoxpatrocinado.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 80px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+
+.blogtrinom .rectangle-25uYQs {
+  background-color: white;
+  height: 560px;
+  left: 593px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.blogtrinom .rectangle-4UFxwe {
+  background-color: white;
+  height: 560px;
+  left: 80px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.blogtrinom .rectangle-CMvW9s {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 80px;
+  position: absolute;
+  top: 1px;
+  width: 1520px;
+}
+.blogtrinom .rectangle-FmB2mn {
+  background-color: transparent;
+  background-image: url(imgBlog/ux-ecommerce.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 593px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+.blogtrinom .rectangle-JcCKXW {
+  background-color: white;
+  height: 560px;
+  left: 1107px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.blogtrinom .rectangle-T79xst {
+  background-color: white;
+  height: 560px;
+  left: 80px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+.blogtrinom .rectangle-UClmJY {
+  background-color: transparent;
+  background-image: url(imgBlog/rectangle@2x.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 593px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.blogtrinom .rectangle-VE79cN {
+  background-color: transparent;
+  background-image: url(imgBlog/m-ecommerce.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 1107px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+.blogtrinom .rectangle-Z3m5J1 {
+  background-color: transparent;
+  background-image: url(imgBlog/rectangle@2x.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 1107px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.blogtrinom .rectangle-bGh3dn {
+  background-color: transparent;
+  background-image: url(imgBlog/futuro-ecommerce.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 80px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.blogtrinom .rectangle-iPe1yZ {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 80px;
+  position: absolute;
+  top: 292px;
+  width: 1520px;
+}
+.blogtrinom .rectangle-lhlxxx {
+  background-color: white;
+  height: 560px;
+  left: 593px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+
+.blogtrinom .rectangle-xsy93n {
+  background-color: white;
+  height: 560px;
+  left: 1107px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+
+.blogtrinom .registrar-se-btn {
+  background-color: var(--dodger-blue);
+  border-radius: 6px;
+  height: 58px;
+  left: 848px;
+  position: absolute;
+  top: 428px;
+  width: 165px;
+}
+.blogtrinom .sample-logo-hO7ArV {
+  background-color: transparent;
+  height: 32px;
+  left: 80px;
+  position: absolute;
+  top: 14px;
+  width: 122px;
+}
+.blogtrinom .sample-logo-iPe1yZ {
+  background-color: transparent;
+  height: 32px;
+  left: 80px;
+  position: absolute;
+  top: 120px;
+  width: 122px;
+}
+.blogtrinom .servico-1---servico-3 {
+  background-color: transparent;
+  height: auto;
+  left: 1043px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+.blogtrinom .servicos-hO7ArV {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% - 194px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 166px;
+}
+.blogtrinom .servicos-iPe1yZ {
+  background-color: transparent;
+  height: auto;
+  left: 1043px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+
+.blogtrinom .sobre {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% + 315px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 133px;
+}
+.blogtrinom .sobre-contato-blog {
+  background-color: transparent;
+  height: auto;
+  left: 850px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+
+.blogtrinom .the-larges-nthusiasts {
+  background-color: transparent;
+  height: 72px;
+  left: 144px;
+  position: absolute;
+  top: 120px;
+  width: 1394px;
+}
+.blogtrinom .titulo-25uYQs {
+  background-color: transparent;
+  height: auto;
+  left: 1171px;
+  position: absolute;
+  text-align: left;
+  top: 1540px;
+  white-space: nowrap;
+  width: 303px;
+}
+.blogtrinom .titulo-4UFxwe {
+  background-color: transparent;
+  height: auto;
+  left: 144px;
+  position: absolute;
+  text-align: left;
+  top: 1540px;
+  white-space: nowrap;
+  width: 303px;
+}
+.blogtrinom .titulo-JcCKXW {
+  background-color: transparent;
+  height: auto;
+  left: 657px;
+  position: absolute;
+  text-align: left;
+  top: 840px;
+  white-space: nowrap;
+  width: 303px;
+}
+.blogtrinom .titulo-UClmJY {
+  background-color: transparent;
+  height: auto;
+  left: 1171px;
+  position: absolute;
+  text-align: left;
+  top: 840px;
+  white-space: nowrap;
+  width: 303px;
+}
+.blogtrinom .titulo-Z3m5J1 {
+  background-color: transparent;
+  height: auto;
+  left: 144px;
+  position: absolute;
+  text-align: left;
+  top: 840px;
+  white-space: nowrap;
+  width: 303px;
+}
+.blogtrinom .titulo-bGh3dn {
+  background-color: transparent;
+  height: auto;
+  left: 657px;
+  position: absolute;
+  text-align: left;
+  top: 1540px;
+  white-space: nowrap;
+  width: 303px;
+}
+.blogtrinom .x2020-trino-reservados {
+  background-color: transparent;
+  height: auto;
+  left: 654px;
+  position: absolute;
+  text-align: left;
+  top: 441px;
+  white-space: nowrap;
+  width: 374px;
+}
+.border-class-1 {
+  border: 1px solid transparent;
+}
+.border-class-2 {
+  border: 1px solid var(--black-2);
+}
+.font-class-1 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.23px;
+  line-height: 24px;
+}
+.font-class-2 {
+  color: black;
+  font-family: 'Montserrat-Bold', Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.36px;
+  line-height: 36px;
+}
+.font-class-3 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.27px;
+  line-height: 30px;
+}
+.font-class-4 {
+  font-family: 'Montserrat-Medium', Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.54px;
+}
+.font-class-5 {
+  font-family: 'Montserrat-Medium', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.23px;
+}
+.font-class-6 {
+  color: black;
+  font-family: 'Montserrat-Bold', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.23px;
+  line-height: 24px;
+}
+.font-class-7 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.54px;
+  line-height: 50px;
+}
+.font-class-8 {
+  color: black;
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.72px;
+  line-height: 72px;
+}
+:root {
+  --black: rgba(0,0,0,0.8);
+  --black-2: rgba(0,0,0,0.5);
+  --cyan-aqua: rgba(1,255,239,1.0);
+  --dodger-blue: rgba(24,160,251,1.0);
+}
+.valign-text-middle {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #18A0FB;
+  
+}
+
+a:hover {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #01FFF0;
+}
+
+a.active {
+  color: #01FFF0;
+}
+
+.blogtrinom .contato {
+  position: absolute;
+  left: 10%;
+}
+
+.blogtrinom .titlecontact {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.blogtrinom .subtitlecontact {
+  margin-bottom: 130px;
+  text-align: center;
+}
+
+.blogtrinom .contato .form {
+  border: 1px solid black;
+  padding: 40px;
+}
+
+.blogtrinom .contato .formtitle {
+  margin-bottom: 50px;
+}

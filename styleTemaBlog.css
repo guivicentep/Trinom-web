@@ -1,0 +1,882 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+    display:block
+}
+body{
+    line-height:1
+}
+ol,ul{
+    list-style:none
+}
+blockquote,q{
+    quotes:none
+}
+blockquote:before,blockquote:after,q:before,q:after{
+    content:'';content:none
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0
+}
+* {
+  box-sizing: border-box;
+}
+.border-class-1 {
+  border: 1px solid transparent;
+}
+.border-class-2 {
+  border: 1px solid var(--black-2);
+}
+.font-class-1 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.23px;
+  line-height: 24px;
+}
+.font-class-2 {
+  color: black;
+  font-family: 'Montserrat-Bold', Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.36px;
+  line-height: 36px;
+}
+.font-class-3 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.27px;
+  line-height: 30px;
+}
+.font-class-4 {
+  font-family: 'Montserrat-Medium', Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.54px;
+}
+.font-class-5 {
+  font-family: 'Montserrat-Medium', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.23px;
+}
+.font-class-6 {
+  color: black;
+  font-family: 'Montserrat-Bold', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.23px;
+  line-height: 24px;
+}
+.font-class-7 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.54px;
+  line-height: 50px;
+}
+.font-class-8 {
+  color: black;
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.72px;
+  line-height: 72px;
+}
+.font-class-9 {
+  color: var(--black-3);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.21px;
+  line-height: 22px;
+}
+.tema-blog {
+  background-color: white;
+  height: 100vh;
+  margin: 0px;
+  min-height: 4691px;
+  min-width: 1680px;
+  position: relative;
+  width: 100%;
+}
+.tema-blog .barra-de-navegacao {
+  background-color: white;
+  height: 576px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1680px;
+}
+.tema-blog .blog {
+  background-color: transparent;
+  color: var(--cyan-/-aqua);
+  height: auto;
+  left: calc(50.00% + 85px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 117px;
+}
+.tema-blog .breve-desc--descricao-25uYQs {
+  background-color: transparent;
+  height: auto;
+  left: 1171px;
+  position: absolute;
+  text-align: left;
+  top: 1600px;
+  width: 303px;
+}
+.tema-blog .breve-desc--descricao-4UFxwe {
+  background-color: transparent;
+  height: auto;
+  left: 144px;
+  position: absolute;
+  text-align: left;
+  top: 1600px;
+  width: 303px;
+}
+.tema-blog .breve-desc--descricao-JcCKXW {
+  background-color: transparent;
+  height: auto;
+  left: 657px;
+  position: absolute;
+  text-align: left;
+  top: 900px;
+  width: 303px;
+}
+.tema-blog .breve-desc--descricao-UClmJY {
+  background-color: transparent;
+  height: auto;
+  left: 1171px;
+  position: absolute;
+  text-align: left;
+  top: 900px;
+  width: 303px;
+}
+.tema-blog .breve-desc--descricao-Z3m5J1 {
+  background-color: transparent;
+  height: auto;
+  left: 144px;
+  position: absolute;
+  text-align: left;
+  top: 900px;
+  width: 303px;
+}
+.tema-blog .breve-desc--descricao-bGh3dn {
+  background-color: transparent;
+  height: auto;
+  left: 657px;
+  position: absolute;
+  text-align: left;
+  top: 1600px;
+  width: 303px;
+}
+.tema-blog .button {
+  background-color: var(--dodger-blue);
+  border-radius: 6px;
+  height: 40px;
+  left: 593px;
+  position: absolute;
+  top: 669px;
+  width: 130px;
+}
+.tema-blog .contato {
+  background-color: white;
+  height: 961px;
+  left: 0px;
+  position: absolute;
+  top: 3239px;
+  width: 1680px;
+}
+.tema-blog .conteudo-do-blog {
+  background-color: white;
+  height: 1923px;
+  left: 0px;
+  position: absolute;
+  top: 1316px;
+  width: 1680px;
+}
+.tema-blog .continue-l-s-assuntos {
+  background-color: transparent;
+  height: auto;
+  left: 421px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  width: 839px;
+}
+.tema-blog .download-do-app {
+  background-color: transparent;
+  height: auto;
+  left: 1234px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+.tema-blog .ellipse-7wTCxV {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.tema-blog .ellipse-CMvW9s {
+  background-color: transparent;
+  height: 44px;
+  left: 874px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.tema-blog .ellipse-MsQYnf {
+  background-color: transparent;
+  height: 44px;
+  left: 1526px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.tema-blog .ellipse-edsI20 {
+  background-color: transparent;
+  height: 44px;
+  left: 810px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.tema-blog .ellipse-hO7ArV {
+  background-color: transparent;
+  height: 44px;
+  left: 1590px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.tema-blog .ellipse-iPe1yZ {
+  background-color: transparent;
+  height: 44px;
+  left: 938px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.tema-blog .ellipse-sxtzfd {
+  background-color: transparent;
+  height: 44px;
+  left: 1462px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.tema-blog .ellipse-ur51bv {
+  background-color: transparent;
+  height: 44px;
+  left: 745px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.tema-blog .ellipse-xgS9Qq {
+  background-color: transparent;
+  height: 44px;
+  left: 1397px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.tema-blog .email {
+  background-color: transparent;
+  height: auto;
+  left: 607px;
+  position: absolute;
+  text-align: left;
+  top: 549px;
+  white-space: nowrap;
+  width: 225px;
+}
+.tema-blog .empresa {
+  background-color: transparent;
+  height: auto;
+  left: 850px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+.tema-blog .enviamos-d--para-voce {
+  background-color: transparent;
+  height: 138.89%;
+  left: 0px;
+  position: absolute;
+  text-align: center;
+  top: 141.67%;
+  width: 100%;
+}
+.tema-blog .enviar {
+  background-color: transparent;
+  color: white;
+  height: 45.00%;
+  left: 32.31%;
+  position: absolute;
+  text-align: center;
+  top: 27.50%;
+  width: 37.69%;
+}
+.tema-blog .estamos-co--para-voce {
+  background-color: transparent;
+  height: auto;
+  left: 386px;
+  position: absolute;
+  text-align: left;
+  top: 174px;
+  width: 845px;
+}
+.tema-blog .fique-mais-imo-de-nos-hO7ArV {
+  background-color: transparent;
+  height: auto;
+  left: 1077px;
+  position: absolute;
+  text-align: right;
+  top: 87px;
+  white-space: nowrap;
+  width: 302px;
+}
+.tema-blog .fique-mais-imo-de-nos-iPe1yZ {
+  background-color: transparent;
+  height: auto;
+  left: 425px;
+  position: absolute;
+  text-align: right;
+  top: 355px;
+  white-space: nowrap;
+  width: 302px;
+}
+.tema-blog .footer {
+  background-color: white;
+  height: 489px;
+  left: 0px;
+  position: absolute;
+  top: 4202px;
+  width: 1680px;
+}
+.tema-blog .home {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% - 446px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 139px;
+}
+.tema-blog .links-e-referencias {
+  background-color: transparent;
+  height: auto;
+  left: 894px;
+  position: absolute;
+  text-align: left;
+  top: 455px;
+  width: 687px;
+}
+.tema-blog .log-in-5z0w8j {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: 45.00%;
+  left: 32.31%;
+  position: absolute;
+  text-align: center;
+  top: 27.50%;
+  width: 36.60%;
+}
+.tema-blog .log-in-hO7ArV {
+  background-color: white;
+  border: 1px solid var(--dodger-blue);
+  border-radius: 6px;
+  height: 58px;
+  left: 667px;
+  position: absolute;
+  top: 428px;
+  width: 165px;
+}
+.tema-blog .logo-trinom-JcnPAY {
+  background-color: transparent;
+  height: 144px;
+  left: 618px;
+  position: absolute;
+  top: 66px;
+  width: 345px;
+}
+.tema-blog .logo-trinom-WXJCCI {
+  background-color: transparent;
+  height: 315.62%;
+  left: 67.17%;
+  position: absolute;
+  top: 9.38%;
+  width: 198.24%;
+}
+.tema-blog .mobile-app {
+  background-color: transparent;
+  height: auto;
+  left: 1234px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+.tema-blog .primeiro-nome {
+  background-color: transparent;
+  height: auto;
+  left: 607px;
+  position: absolute;
+  text-align: left;
+  top: 485px;
+  white-space: nowrap;
+  width: 225px;
+}
+.tema-blog .quer-receb-do-premium {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 100%;
+}
+.tema-blog .rectangle-1nxZ7J {
+  background-color: transparent;
+  background-image: url(imgTemaBlog/rectangle@2x.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 80px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+.tema-blog .rectangle-2-a3AviI {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 893px;
+  position: absolute;
+  top: 422px;
+  width: 686px;
+}
+.tema-blog .rectangle-2-nvUhhp {
+  background-color: white;
+  height: 40px;
+  left: 593px;
+  position: absolute;
+  top: 477px;
+  width: 237px;
+}
+.tema-blog .rectangle-21 {
+  background-color: white;
+  height: 40px;
+  left: 850px;
+  position: absolute;
+  top: 477px;
+  width: 237px;
+}
+.tema-blog .rectangle-22 {
+  background-color: white;
+  height: 40px;
+  left: 593px;
+  position: absolute;
+  top: 541px;
+  width: 494px;
+}
+.tema-blog .rectangle-23 {
+  background-color: white;
+  height: 40px;
+  left: 593px;
+  position: absolute;
+  top: 605px;
+  width: 494px;
+}
+.tema-blog .rectangle-25uYQs {
+  background-color: white;
+  height: 560px;
+  left: 593px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.tema-blog .rectangle-4UFxwe {
+  background-color: white;
+  height: 560px;
+  left: 80px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.tema-blog .rectangle-CMvW9s {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 80px;
+  position: absolute;
+  top: 1px;
+  width: 1520px;
+}
+.tema-blog .rectangle-FmB2mn {
+  background-color: transparent;
+  background-image: url(imgTemaBlog/rectangle@2x.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 593px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+.tema-blog .rectangle-JcCKXW {
+  background-color: white;
+  height: 560px;
+  left: 1107px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.tema-blog .rectangle-T79xst {
+  background-color: white;
+  height: 560px;
+  left: 80px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+.tema-blog .rectangle-UClmJY {
+  background-color: transparent;
+  background-image: url(imgTemaBlog/rectangle@2x.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 593px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.tema-blog .rectangle-VE79cN {
+  background-color: transparent;
+  background-image: url(imgTemaBlog/rectangle@2x.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 1107px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+.tema-blog .rectangle-Z3m5J1 {
+  background-color: transparent;
+  background-image: url(imgTemaBlog/rectangle@2x.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 1107px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.tema-blog .rectangle-a3AviI {
+  background-color: transparent;
+  background-image: url(imgTemaBlog/rectangle@1x.png);
+  background-size: 100% 100%;
+  height: 740px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 830px;
+}
+.tema-blog .rectangle-bGh3dn {
+  background-color: transparent;
+  background-image: url(imgTemaBlog/rectangle@2x.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 80px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.tema-blog .rectangle-iPe1yZ {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 80px;
+  position: absolute;
+  top: 292px;
+  width: 1520px;
+}
+.tema-blog .rectangle-lhlxxx {
+  background-color: white;
+  height: 560px;
+  left: 593px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+.tema-blog .rectangle-nvUhhp {
+  background-color: white;
+  height: 439px;
+  left: 529px;
+  position: absolute;
+  top: 334px;
+  width: 622px;
+}
+.tema-blog .rectangle-xsy93n {
+  background-color: white;
+  height: 560px;
+  left: 1107px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+.tema-blog .registrar-se-B00q6Q {
+  background-color: transparent;
+  color: white;
+  height: 45.00%;
+  left: 15.38%;
+  position: absolute;
+  text-align: center;
+  top: 27.50%;
+  width: 70.44%;
+}
+.tema-blog .registrar-se-hO7ArV {
+  background-color: var(--dodger-blue);
+  border-radius: 6px;
+  height: 58px;
+  left: 848px;
+  position: absolute;
+  top: 428px;
+  width: 165px;
+}
+.tema-blog .sample-logo-hO7ArV {
+  background-color: transparent;
+  height: 32px;
+  left: 80px;
+  position: absolute;
+  top: 14px;
+  width: 122px;
+}
+.tema-blog .sample-logo-iPe1yZ {
+  background-color: transparent;
+  height: 32px;
+  left: 80px;
+  position: absolute;
+  top: 120px;
+  width: 122px;
+}
+.tema-blog .servico-1---servico-3 {
+  background-color: transparent;
+  height: auto;
+  left: 1043px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+.tema-blog .servicos-hO7ArV {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% - 194px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 166px;
+}
+.tema-blog .servicos-iPe1yZ {
+  background-color: transparent;
+  height: auto;
+  left: 1043px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+.tema-blog .seus-dados {
+  background-color: transparent;
+  height: auto;
+  left: 593px;
+  position: absolute;
+  text-align: left;
+  top: 398px;
+  white-space: nowrap;
+  width: 560px;
+}
+.tema-blog .sobre {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% + 315px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 133px;
+}
+.tema-blog .sobre-contato-blog {
+  background-color: transparent;
+  height: auto;
+  left: 850px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+.tema-blog .sobrenome {
+  background-color: transparent;
+  height: auto;
+  left: 864px;
+  position: absolute;
+  text-align: left;
+  top: 485px;
+  white-space: nowrap;
+  width: 225px;
+}
+.tema-blog .telefone {
+  background-color: transparent;
+  height: auto;
+  left: 607px;
+  position: absolute;
+  text-align: left;
+  top: 613px;
+  white-space: nowrap;
+  width: 225px;
+}
+.tema-blog .tema-abordado {
+  background-color: white;
+  height: 740px;
+  left: 19px;
+  position: absolute;
+  top: 576px;
+  width: 1641px;
+}
+.tema-blog .texto-desc-bre-o-tema {
+  background-color: transparent;
+  height: auto;
+  left: 893px;
+  position: absolute;
+  text-align: left;
+  top: 300px;
+  width: 688px;
+}
+.tema-blog .the-larges-nthusiasts {
+  background-color: transparent;
+  height: 72px;
+  left: 144px;
+  position: absolute;
+  top: 120px;
+  width: 1394px;
+}
+.tema-blog .titulo-25uYQs {
+  background-color: transparent;
+  height: auto;
+  left: 1171px;
+  position: absolute;
+  text-align: left;
+  top: 1540px;
+  white-space: nowrap;
+  width: 303px;
+}
+.tema-blog .titulo-4UFxwe {
+  background-color: transparent;
+  height: auto;
+  left: 144px;
+  position: absolute;
+  text-align: left;
+  top: 1540px;
+  white-space: nowrap;
+  width: 303px;
+}
+.tema-blog .titulo-JcCKXW {
+  background-color: transparent;
+  height: auto;
+  left: 657px;
+  position: absolute;
+  text-align: left;
+  top: 840px;
+  white-space: nowrap;
+  width: 303px;
+}
+.tema-blog .titulo-UClmJY {
+  background-color: transparent;
+  height: auto;
+  left: 1171px;
+  position: absolute;
+  text-align: left;
+  top: 840px;
+  white-space: nowrap;
+  width: 303px;
+}
+.tema-blog .titulo-Z3m5J1 {
+  background-color: transparent;
+  height: auto;
+  left: 144px;
+  position: absolute;
+  text-align: left;
+  top: 840px;
+  white-space: nowrap;
+  width: 303px;
+}
+.tema-blog .titulo-bGh3dn {
+  background-color: transparent;
+  height: auto;
+  left: 657px;
+  position: absolute;
+  text-align: left;
+  top: 1540px;
+  white-space: nowrap;
+  width: 303px;
+}
+.tema-blog .titulo-do-conteudo {
+  background-color: transparent;
+  height: auto;
+  left: 893px;
+  position: absolute;
+  text-align: left;
+  top: 240px;
+  white-space: nowrap;
+  width: 688px;
+}
+.tema-blog .x2020-trino-reservados {
+  background-color: transparent;
+  height: auto;
+  left: 654px;
+  position: absolute;
+  text-align: left;
+  top: 441px;
+  white-space: nowrap;
+  width: 374px;
+}
+:root {
+  --black: rgba(0,0,0,0.8);
+  --black-2: rgba(0,0,0,0.5);
+  --black-3: rgba(0,0,0,0.6);
+  --cyan-aqua: rgba(1,255,239,1.0);
+  --dodger-blue: rgba(24,160,251,1.0);
+}
+.valign-text-middle {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}

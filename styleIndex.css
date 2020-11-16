@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+    font-family: 'Montserrat';
+
+
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+    display:block
+}
+body{
+    line-height:1;
+}
+ol,ul{
+    list-style:none
+}
+blockquote,q{
+    quotes:none
+}
+blockquote:before,blockquote:after,q:before,q:after{
+    content:'';content:none
+}
+table{
+    border-collapse:collapse;border-spacing:0
+}
+* {
+  box-sizing: border-box;
+}
+.border-class-1 {
+  border: 1px solid transparent;
+}
+.font-class-1 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.23px;
+  line-height: 24px;
+}
+.font-class-2 {
+  font-family: 'Montserrat-Medium', Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.54px;
+}
+.font-class-3 {
+  color: black;
+  font-family: 'Montserrat-Bold', Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.54px;
+  line-height: 36px;
+}
+.font-class-4 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.27px;
+  line-height: 30px;
+}
+.font-class-5 {
+  color: white;
+  font-family: 'Montserrat-Medium', Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.36px;
+}
+.font-class-6 {
+  color: black;
+  font-family: 'Montserrat-Bold', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.23px;
+  line-height: 24px;
+}
+.font-class-7 {
+  font-family: 'Montserrat-Medium', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.23px;
+}
+.font-class-8 {
+  color: black;
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.84px;
+  line-height: 80px;
+}
+.font-class-9 {
+  color: black;
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.72px;
+  line-height: 72px;
+}
+.home-page {
+  background-color: white;
+  height: 100vh;
+  margin: 0px;
+  min-height: 4084px;
+  min-width: 1680px;
+  position: relative;
+  width: 100%;
+}
+.home-page .barra-de-navegacao {
+  background-color: white;
+  height: 576px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1680px;
+}
+.home-page .blog {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% + 85px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 117px;
+}
+.home-page .breve-apre-da-empresa {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 100%;
+}
+.home-page .breve-desc--descricao-MlrhOn {
+  background-color: transparent;
+  height: auto;
+  left: 914px;
+  position: absolute;
+  text-align: left;
+  top: 624px;
+  width: 688px;
+}
+.home-page .breve-desc--descricao-Vynq1O {
+  background-color: transparent;
+  height: auto;
+  left: 77px;
+  position: absolute;
+  text-align: left;
+  top: 1247px;
+  width: 688px;
+}
+.home-page .breve-desc--descricao-ga6kIG {
+  background-color: transparent;
+  height: auto;
+  left: 911px;
+  position: absolute;
+  text-align: left;
+  top: 1247px;
+  width: 688px;
+}
+.home-page .btn-branding {
+  background-color: var(--dodger-blue);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 6px;
+  height: 57px;
+  left: 80px;
+  position: absolute;
+  top: 746px;
+  width: 185px;
+}
+.home-page .button-IirW20 {
+  background-color: var(--dodger-blue);
+  
+  border-radius: 6px;
+  height: 82px;
+  left: 656px;
+  position: absolute;
+  top: 744px;
+  width: 303px;
+}
+.home-page .btn-performance {
+  background-color: var(--dodger-blue);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  height: 57px;
+  left: 914px;
+  position: absolute;
+  top: 746px;
+  width: 185px;
+}
+.home-page .btn-midiasocial {
+  background-color: var(--dodger-blue);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  height: 57px;
+  left: 77px;
+  position: absolute;
+  top: 1367px;
+  width: 188px;
+}
+.home-page .btn-ecommerce {
+  background-color: var(--dodger-blue);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  height: 55px;
+  left: 911px;
+  position: absolute;
+  top: 1369px;
+  width: 188px;
+}
+.home-page .contato {
+  background-color: transparent;
+  color: white;
+  height: 40.24%;
+  left: 22.77%;
+  position: absolute;
+  text-align: center;
+  top: 30.49%;
+  width: 55.45%;
+}
+.home-page .descricao {
+  background-color: transparent;
+  height: auto;
+  left: 80px;
+  position: absolute;
+  text-align: left;
+  top: 624px;
+  width: 688px;
+}
+.home-page .download-do-app {
+  background-color: transparent;
+  height: auto;
+  left: 1234px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+.home-page .ellipse-7wTCxV {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.home-page .ellipse-CMvW9s {
+  background-color: transparent;
+  height: 44px;
+  left: 874px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.home-page .ellipse-HEQdRd {
+  background-color: transparent;
+  height: 200px;
+  left: 80px;
+  position: absolute;
+  top: 324px;
+  width: 200px;
+}
+.home-page .ellipse-MlrhOn {
+  background-color: transparent;
+  height: 200px;
+  left: 914px;
+  position: absolute;
+  top: 324px;
+  width: 200px;
+}
+.home-page .icon-yt {
+  background-color: transparent;
+  height: 44px;
+  left: 1526px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.home-page .ellipse-Vynq1O {
+  background-color: transparent;
+  height: 200px;
+  left: 77px;
+  position: absolute;
+  top: 947px;
+  width: 200px;
+}
+.home-page .ellipse-edsI20 {
+  background-color: transparent;
+  height: 44px;
+  left: 810px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.home-page .ellipse-ga6kIG {
+  background-color: transparent;
+  height: 200px;
+  left: 911px;
+  position: absolute;
+  top: 947px;
+  width: 200px;
+}
+.home-page .icon-fb {
+  background-color: transparent;
+  height: 44px;
+  left: 1590px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.home-page .ellipse-iPe1yZ {
+  background-color: transparent;
+  height: 44px;
+  left: 938px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.home-page .ellipse-o6eIeN {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100.00%;
+}
+.home-page .icon-lk {
+  background-color: transparent;
+  height: 44px;
+  left: 1462px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.home-page .ellipse-ur51bv {
+  background-color: transparent;
+  height: 44px;
+  left: 745px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.home-page .icon-ig {
+  background-color: transparent;
+  height: 44px;
+  left: 1397px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.home-page .empresa {
+  background-color: transparent;
+  height: auto;
+  left: 850px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+.home-page .fique-mais-imo-de-nos-hO7ArV {
+  background-color: transparent;
+  height: auto;
+  left: 1077px;
+  position: absolute;
+  text-align: right;
+  top: 87px;
+  white-space: nowrap;
+  width: 302px;
+}
+.home-page .fique-mais-imo-de-nos-iPe1yZ {
+  background-color: transparent;
+  height: auto;
+  left: 425px;
+  position: absolute;
+  text-align: right;
+  top: 355px;
+  white-space: nowrap;
+  width: 302px;
+}
+.home-page .footer {
+  background-color: white;
+  height: 489px;
+  left: 0px;
+  position: absolute;
+  top: 3416px;
+  width: 1680px;
+}
+.home-page .home {
+  background-color: white;
+  color: var(--cyan-/-aqua);
+  height: auto;
+  left: calc(50.00% - 446px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 139px;
+}
+
+.home-page .log-in-btn {
+  background-color: white;
+  border: 1px solid var(--dodger-blue);
+  color: #18A0FB;
+  border-radius: 6px;
+  height: 58px;
+  left: 667px;
+  position: absolute;
+  top: 428px;
+  width: 165px;
+}
+.home-page .log-in-btn:hover {
+  color: #0464A5;
+  border-color: #0464A5;
+}
+
+.home-page .logo-trinom-JcnPAY {
+  background-color: transparent;
+  height: 144px;
+  left: 618px;
+  position: absolute;
+  top: 66px;
+  width: 345px;
+}
+.home-page .logo-trinom-WXJCCI {
+  background-color: transparent;
+  height: 315.62%;
+  left: 67.17%;
+  position: absolute;
+  top: 9.38%;
+  width: 198.24%;
+}
+.home-page .mobile-app {
+  background-color: transparent;
+  height: auto;
+  left: 1234px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+.home-page .nome-do-servico-HEQdRd {
+  background-color: transparent;
+  height: auto;
+  left: 80px;
+  position: absolute;
+  text-align: left;
+  top: 564px;
+  white-space: nowrap;
+  width: 688px;
+}
+.home-page .nome-do-servico-MlrhOn {
+  background-color: transparent;
+  height: auto;
+  left: 914px;
+  position: absolute;
+  text-align: left;
+  top: 564px;
+  white-space: nowrap;
+  width: 688px;
+}
+.home-page .nome-do-servico-Vynq1O {
+  background-color: transparent;
+  height: auto;
+  left: 77px;
+  position: absolute;
+  text-align: left;
+  top: 1187px;
+  white-space: nowrap;
+  width: 688px;
+}
+.home-page .nome-do-servico-ga6kIG {
+  background-color: transparent;
+  height: auto;
+  left: 911px;
+  position: absolute;
+  text-align: left;
+  top: 1187px;
+  white-space: nowrap;
+  width: 688px;
+}
+.home-page .nossas-sol-eu-negocio {
+  background-color: transparent;
+  height: auto;
+  left: 80px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  width: 752px;
+}
+.home-page .play-logo {
+  background-color: transparent;
+  background-image: url(img/ellipse-8@2x.png);
+  background-size: 100% 100%;
+  height: 132px;
+  left: 742px;
+  position: absolute;
+  top: 390px;
+  width: 132px;
+}
+.home-page .polygon {
+  background-color: transparent;
+  height: 35.61%;
+  left: 33.90%;
+  position: absolute;
+  top: 31.82%;
+  width: 31.44%;
+}
+.home-page .rectangle-CMvW9s {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 80px;
+  position: absolute;
+  top: 1px;
+  width: 1520px;
+}
+.home-page .rectangle-IirW20 {
+  background-color: transparent;
+  height: 960px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1680px;
+}
+.home-page .rectangle-eA9b5M {
+  background-color: transparent;
+  height: 95.83%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 95.83%;
+}
+.home-page .rectangle-iPe1yZ {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 80px;
+  position: absolute;
+  top: 292px;
+  width: 1520px;
+}
+
+.home-page .registrar-se-btn {
+  background-color: #18A0FB;
+  border: 1px solid  #18A0FB;
+  border-radius: 6px;
+  color: white;
+  height: 58px;
+  left: 848px;
+  position: absolute;
+  top: 428px;
+  width: 165px;
+}
+
+.home-page .registrar-se-btn:hover {
+  background-color: #0464A5;
+}
+
+.home-page .sample-logo-hO7ArV {
+  background-color: transparent;
+  height: 32px;
+  left: 80px;
+  position: absolute;
+  top: 14px;
+  width: 122px;
+}
+.home-page .sample-logo-iPe1yZ {
+  background-color: transparent;
+  height: 32px;
+  left: 80px;
+  position: absolute;
+  top: 120px;
+  width: 122px;
+}
+.home-page .servico-1---servico-3 {
+  background-color: transparent;
+  height: auto;
+  left: 1043px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+.home-page .servicos-hO7ArV {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% - 194px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 166px;
+}
+.home-page .servicos-iPe1yZ {
+  background-color: transparent;
+  height: auto;
+  left: 1043px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+.home-page .sobre {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% + 315px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 133px;
+}
+.home-page .sobre-contato-blog {
+  background-color: transparent;
+  height: auto;
+  left: 850px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+.home-page .solucoes {
+  background-color: white;
+  height: 1606px;
+  left: 0px;
+  position: absolute;
+  top: 1646px;
+  width: 1680px;
+}
+.home-page .the-larges-nthusiasts {
+  background-color: transparent;
+  height: 80px;
+  left: 141px;
+  position: absolute;
+  top: 608px;
+  width: 1394px;
+}
+.home-page .video {
+  background-color: white;
+  height: 920px;
+  left: calc(50.00% - 808px);
+  overflow: hidden;
+  position: absolute;
+  top: calc(50.00% - 1462px);
+  width: 1610px;
+}
+.home-page .x2020-trino-reservados {
+  background-color: transparent;
+  height: auto;
+  left: 654px;
+  position: absolute;
+  text-align: left;
+  top: 441px;
+  white-space: nowrap;
+  width: 374px;
+}
+:root {
+  --black: rgba(0,0,0,0.8);
+  --black-2: rgba(0,0,0,0.5);
+  --cyan-aqua: rgba(1,255,239,1.0);
+  --dodger-blue: rgba(24,160,251,1.0);
+}
+.valign-text-middle {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #18A0FB;
+  
+}
+
+a:hover {
+  transition: 0.3s;
+  color: #01FFF0;
+}
+
+a.active {
+  color: #01FFF0;
+}

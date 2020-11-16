@@ -1,0 +1,961 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  font:inherit;
+  vertical-align:baseline
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+  display:block
+}
+body{
+  line-height:1
+}
+ol,ul{
+  list-style:none
+}
+blockquote,q{
+  quotes:none
+}
+blockquote:before,blockquote:after,q:before,q:after{
+  content:'';
+  content:none
+}
+table{
+  border-collapse:collapse;
+  border-spacing:0
+}
+* {
+  box-sizing: border-box;
+}
+.border-class-1 {
+  border: 1px solid transparent;
+}
+.border-class-2 {
+  border: 1px solid var(--black-2);
+}
+.font-class-1 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.23px;
+  line-height: 24px;
+}
+.font-class-10 {
+  color: black;
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.84px;
+  line-height: 80px;
+}
+.font-class-2 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.27px;
+  line-height: 30px;
+}
+.font-class-3 {
+  color: black;
+  font-family: 'Montserrat-Bold', Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.36px;
+  line-height: 36px;
+}
+.font-class-4 {
+  font-family: 'Montserrat-Medium', Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.54px;
+}
+.font-class-5 {
+  font-family: 'Montserrat-Medium', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.23px;
+}
+.font-class-6 {
+  color: var(--black-3);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.21px;
+  line-height: 22px;
+}
+.font-class-7 {
+  color: black;
+  font-family: 'Montserrat-Bold', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.23px;
+  line-height: 24px;
+}
+.font-class-8 {
+  color: black;
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.72px;
+  line-height: 72px;
+}
+.font-class-9 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.54px;
+  line-height: 50px;
+}
+.servico-descrito {
+  background-color: white;
+  height: 100vh;
+  margin: 0px;
+  min-height: 5457px;
+  min-width: 1680px;
+  position: relative;
+  width: 100%;
+}
+.servico-descrito .barra-de-navegacao {
+  background-color: white;
+  height: 576px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1680px;
+}
+.servico-descrito .blog {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% + 85px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 117px;
+}
+.servico-descrito .breve-desc--descricao-0NViuj {
+  background-color: transparent;
+  height: auto;
+  left: 914px;
+  position: absolute;
+  text-align: left;
+  top: 238px;
+  width: 688px;
+}
+.servico-descrito .breve-desc--descricao-25uYQs {
+  background-color: transparent;
+  height: auto;
+  left: 1171px;
+  position: absolute;
+  text-align: left;
+  top: 1600px;
+  width: 303px;
+}
+.servico-descrito .breve-desc--descricao-4UFxwe {
+  background-color: transparent;
+  height: auto;
+  left: 144px;
+  position: absolute;
+  text-align: left;
+  top: 1600px;
+  width: 303px;
+}
+.servico-descrito .breve-desc--descricao-JcCKXW {
+  background-color: transparent;
+  height: auto;
+  left: 657px;
+  position: absolute;
+  text-align: left;
+  top: 900px;
+  width: 303px;
+}
+.servico-descrito .breve-desc--descricao-UClmJY {
+  background-color: transparent;
+  height: auto;
+  left: 1171px;
+  position: absolute;
+  text-align: left;
+  top: 900px;
+  width: 303px;
+}
+.servico-descrito .breve-desc--descricao-Z3m5J1 {
+  background-color: transparent;
+  height: auto;
+  left: 144px;
+  position: absolute;
+  text-align: left;
+  top: 900px;
+  width: 303px;
+}
+.servico-descrito .breve-desc--descricao-bGh3dn {
+  background-color: transparent;
+  height: auto;
+  left: 657px;
+  position: absolute;
+  text-align: left;
+  top: 1600px;
+  width: 303px;
+}
+.servico-descrito .button {
+  background-color: var(--dodger-blue);
+  border-radius: 6px;
+  height: 40px;
+  left: 593px;
+  position: absolute;
+  top: 737px;
+  width: 130px;
+}
+.servico-descrito .contato {
+  background-color: white;
+  height: 961px;
+  left: 0px;
+  position: absolute;
+  top: 1800px;
+  width: 1680px;
+}
+.servico-descrito .conteudo-do-blog {
+  background-color: white;
+  height: 1923px;
+  left: 0px;
+  position: absolute;
+  top: 2851px;
+  width: 1680px;
+}
+.servico-descrito .descricao {
+  background-color: transparent;
+  height: auto;
+  left: 4px;
+  position: absolute;
+  text-align: left;
+  top: 81px;
+  width: 688px;
+}
+.servico-descrito .download-do-app {
+  background-color: transparent;
+  height: auto;
+  left: 1234px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+.servico-descrito .ellipse-0NViuj {
+  background-color: transparent;
+  height: 44px;
+  left: 914px;
+  position: absolute;
+  top: 368px;
+  width: 44px;
+}
+.servico-descrito .ellipse-CMvW9s {
+  background-color: transparent;
+  height: 44px;
+  left: 874px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.servico-descrito .ellipse-Gfv0LL {
+  background-color: transparent;
+  height: 44px;
+  left: 914px;
+  position: absolute;
+  top: 443px;
+  width: 44px;
+}
+.servico-descrito .ellipse-In0NkY {
+  background-color: transparent;
+  height: 44px;
+  left: 914px;
+  position: absolute;
+  top: 518px;
+  width: 44px;
+}
+.servico-descrito .ellipse-MsQYnf {
+  background-color: transparent;
+  height: 44px;
+  left: 1526px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.servico-descrito .ellipse-P0mcxu {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.servico-descrito .ellipse-edsI20 {
+  background-color: transparent;
+  height: 44px;
+  left: 810px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.servico-descrito .ellipse-hO7ArV {
+  background-color: transparent;
+  height: 44px;
+  left: 1590px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.servico-descrito .ellipse-iPe1yZ {
+  background-color: transparent;
+  height: 44px;
+  left: 938px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.servico-descrito .ellipse-sxtzfd {
+  background-color: transparent;
+  height: 44px;
+  left: 1462px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.servico-descrito .ellipse-ur51bv {
+  background-color: transparent;
+  height: 44px;
+  left: 745px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.servico-descrito .ellipse-xgS9Qq {
+  background-color: transparent;
+  height: 44px;
+  left: 1397px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.servico-descrito .email {
+  background-color: transparent;
+  height: auto;
+  left: 607px;
+  position: absolute;
+  text-align: left;
+  top: 617px;
+  white-space: nowrap;
+  width: 225px;
+}
+.servico-descrito .empresa {
+  background-color: transparent;
+  height: auto;
+  left: 850px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+.servico-descrito .entre-em-c-ssa-equipe {
+  background-color: transparent;
+  height: 138.89%;
+  left: 0px;
+  position: absolute;
+  text-align: center;
+  top: 141.67%;
+  width: 100%;
+}
+.servico-descrito .enviar {
+  background-color: transparent;
+  color: white;
+  height: 45.00%;
+  left: 32.31%;
+  position: absolute;
+  text-align: center;
+  top: 27.50%;
+  width: 37.69%;
+}
+.servico-descrito .fique-mais-imo-de-nos-hO7ArV {
+  background-color: transparent;
+  height: auto;
+  left: 1077px;
+  position: absolute;
+  text-align: right;
+  top: 87px;
+  white-space: nowrap;
+  width: 302px;
+}
+.servico-descrito .fique-mais-imo-de-nos-iPe1yZ {
+  background-color: transparent;
+  height: auto;
+  left: 425px;
+  position: absolute;
+  text-align: right;
+  top: 355px;
+  white-space: nowrap;
+  width: 302px;
+}
+.servico-descrito .footer {
+  background-color: white;
+  height: 489px;
+  left: 0px;
+  position: absolute;
+  top: 4891px;
+  width: 1680px;
+}
+.servico-descrito .home {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% - 446px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 139px;
+}
+.servico-descrito .impulsione-resultados {
+  background-color: transparent;
+  height: auto;
+  left: 525px;
+  position: absolute;
+  text-align: left;
+  top: 154px;
+  width: 567px;
+}
+.servico-descrito .log-in-5z0w8j {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: 45.00%;
+  left: 32.31%;
+  position: absolute;
+  text-align: center;
+  top: 27.50%;
+  width: 36.60%;
+}
+.servico-descrito .log-in-hO7ArV {
+  background-color: white;
+  border: 1px solid var(--dodger-blue);
+  border-radius: 6px;
+  height: 58px;
+  left: 667px;
+  position: absolute;
+  top: 428px;
+  width: 165px;
+}
+.servico-descrito .logo-trinom-JcnPAY {
+  background-color: transparent;
+  height: 144px;
+  left: 618px;
+  position: absolute;
+  top: 66px;
+  width: 345px;
+}
+.servico-descrito .logo-trinom-WXJCCI {
+  background-color: transparent;
+  height: 315.62%;
+  left: 67.17%;
+  position: absolute;
+  top: 9.38%;
+  width: 198.24%;
+}
+.servico-descrito .mobile-app {
+  background-color: transparent;
+  height: auto;
+  left: 1234px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+.servico-descrito .nome-do-servico {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 99.42%;
+}
+.servico-descrito .nome-servico {
+  background-color: transparent;
+  height: 160px;
+  left: 528px;
+  position: absolute;
+  top: 643px;
+  width: 692px;
+}
+.servico-descrito .outros-servicos {
+  background-color: transparent;
+  height: auto;
+  left: 620px;
+  position: absolute;
+  text-align: left;
+  top: 48px;
+  width: 376px;
+}
+.servico-descrito .ponto-positivo-x {
+  background-color: transparent;
+  height: auto;
+  left: 978px;
+  position: absolute;
+  text-align: left;
+  top: 379px;
+  white-space: nowrap;
+  width: 624px;
+}
+.servico-descrito .ponto-positivo-y {
+  background-color: transparent;
+  height: auto;
+  left: 978px;
+  position: absolute;
+  text-align: left;
+  top: 454px;
+  white-space: nowrap;
+  width: 624px;
+}
+.servico-descrito .ponto-positivo-z {
+  background-color: transparent;
+  height: auto;
+  left: 978px;
+  position: absolute;
+  text-align: left;
+  top: 529px;
+  white-space: nowrap;
+  width: 624px;
+}
+.servico-descrito .primeiro-nome {
+  background-color: transparent;
+  height: auto;
+  left: 607px;
+  position: absolute;
+  text-align: left;
+  top: 553px;
+  white-space: nowrap;
+  width: 225px;
+}
+.servico-descrito .rectangle-0NViuj {
+  background-color: transparent;
+  height: 740px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 830px;
+}
+.servico-descrito .rectangle-1nxZ7J {
+  background-color: transparent;
+  background-image: url(imgServiços/rectangle-1@2x.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 80px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+.servico-descrito .rectangle-2 {
+  background-color: white;
+  height: 40px;
+  left: 593px;
+  position: absolute;
+  top: 545px;
+  width: 237px;
+}
+.servico-descrito .rectangle-21 {
+  background-color: white;
+  height: 40px;
+  left: 850px;
+  position: absolute;
+  top: 545px;
+  width: 237px;
+}
+.servico-descrito .rectangle-22 {
+  background-color: white;
+  height: 40px;
+  left: 593px;
+  position: absolute;
+  top: 609px;
+  width: 494px;
+}
+.servico-descrito .rectangle-23 {
+  background-color: white;
+  height: 40px;
+  left: 593px;
+  position: absolute;
+  top: 673px;
+  width: 494px;
+}
+.servico-descrito .rectangle-25uYQs {
+  background-color: white;
+  height: 560px;
+  left: 593px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.servico-descrito .rectangle-4UFxwe {
+  background-color: white;
+  height: 560px;
+  left: 80px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.servico-descrito .rectangle-CMvW9s {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 80px;
+  position: absolute;
+  top: 1px;
+  width: 1520px;
+}
+.servico-descrito .rectangle-FmB2mn {
+  background-color: transparent;
+  background-image: url(imgServiços/rectangle-1@2x.png/rectangle-1@2x.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 593px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+.servico-descrito .rectangle-JcCKXW {
+  background-color: white;
+  height: 560px;
+  left: 1107px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.servico-descrito .rectangle-T79xst {
+  background-color: white;
+  height: 560px;
+  left: 80px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+.servico-descrito .rectangle-UClmJY {
+  background-color: transparent;
+  background-image: url(imgServiços/rectangle-1@2x.png/rectangle-1@2x.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 593px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.servico-descrito .rectangle-VE79cN {
+  background-color: transparent;
+  background-image: url(imgServiços/rectangle-1@2x.png/rectangle-1@2x.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 1107px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+.servico-descrito .rectangle-VYqxh2 {
+  background-color: transparent;
+  height: 96.62%;
+  left: 3.37%;
+  position: absolute;
+  top: 0px;
+  width: 96.63%;
+}
+.servico-descrito .rectangle-Z3m5J1 {
+  background-color: transparent;
+  background-image: url(imgServiços/rectangle-1@2x.png/rectangle-1@2x.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 1107px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.servico-descrito .rectangle-bGh3dn {
+  background-color: transparent;
+  background-image: url(imgServiços/rectangle-1@2x.png/rectangle-1@2x.png);
+  background-size: 100% 100%;
+  height: 275px;
+  left: 80px;
+  position: absolute;
+  top: 1194px;
+  width: 429px;
+}
+.servico-descrito .rectangle-iPe1yZ {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 80px;
+  position: absolute;
+  top: 292px;
+  width: 1520px;
+}
+.servico-descrito .rectangle-lhlxxx {
+  background-color: white;
+  height: 560px;
+  left: 593px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+.servico-descrito .rectangle-nvUhhp {
+  background-color: white;
+  height: 439px;
+  left: 529px;
+  position: absolute;
+  top: 402px;
+  width: 622px;
+}
+.servico-descrito .rectangle-xsy93n {
+  background-color: white;
+  height: 560px;
+  left: 1107px;
+  position: absolute;
+  top: 494px;
+  width: 429px;
+}
+.servico-descrito .registrar-se-B00q6Q {
+  background-color: transparent;
+  color: white;
+  height: 45.00%;
+  left: 15.38%;
+  position: absolute;
+  text-align: center;
+  top: 27.50%;
+  width: 70.44%;
+}
+.servico-descrito .registrar-se-hO7ArV {
+  background-color: var(--dodger-blue);
+  border-radius: 6px;
+  height: 58px;
+  left: 848px;
+  position: absolute;
+  top: 428px;
+  width: 165px;
+}
+.servico-descrito .resultados-eu-negocio {
+  background-color: transparent;
+  height: auto;
+  left: 914px;
+  position: absolute;
+  text-align: left;
+  top: 178px;
+  white-space: nowrap;
+  width: 688px;
+}
+.servico-descrito .sample-logo-hO7ArV {
+  background-color: transparent;
+  height: 32px;
+  left: 80px;
+  position: absolute;
+  top: 14px;
+  width: 122px;
+}
+.servico-descrito .sample-logo-iPe1yZ {
+  background-color: transparent;
+  height: 32px;
+  left: 80px;
+  position: absolute;
+  top: 120px;
+  width: 122px;
+}
+.servico-descrito .servico {
+  background-color: white;
+  height: 740px;
+  left: 0px;
+  position: absolute;
+  top: 921px;
+  width: 1680px;
+}
+.servico-descrito .servico-1---servico-3 {
+  background-color: transparent;
+  height: auto;
+  left: 1043px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+.servico-descrito .servicos-hO7ArV {
+  background-color: transparent;
+  color: var(--cyan-/-aqua);
+  height: auto;
+  left: calc(50.00% - 194px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 166px;
+}
+.servico-descrito .servicos-iPe1yZ {
+  background-color: transparent;
+  height: auto;
+  left: 1043px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+.servico-descrito .seus-dados-ra-contato {
+  background-color: transparent;
+  height: auto;
+  left: 593px;
+  position: absolute;
+  text-align: left;
+  top: 466px;
+  white-space: nowrap;
+  width: 560px;
+}
+.servico-descrito .sobre {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% + 315px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 133px;
+}
+.servico-descrito .sobre-contato-blog {
+  background-color: transparent;
+  height: auto;
+  left: 850px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+.servico-descrito .sobrenome {
+  background-color: transparent;
+  height: auto;
+  left: 864px;
+  position: absolute;
+  text-align: left;
+  top: 553px;
+  white-space: nowrap;
+  width: 225px;
+}
+.servico-descrito .telefone {
+  background-color: transparent;
+  height: auto;
+  left: 607px;
+  position: absolute;
+  text-align: left;
+  top: 681px;
+  white-space: nowrap;
+  width: 225px;
+}
+.servico-descrito .tem-interr-eu-negocio {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 100%;
+}
+.servico-descrito .the-larges-nthusiasts {
+  background-color: transparent;
+  height: 72px;
+  left: 144px;
+  position: absolute;
+  top: 120px;
+  width: 1394px;
+}
+.servico-descrito .titulo-25uYQs {
+  background-color: transparent;
+  height: auto;
+  left: 1171px;
+  position: absolute;
+  text-align: left;
+  top: 1540px;
+  white-space: nowrap;
+  width: 303px;
+}
+.servico-descrito .titulo-4UFxwe {
+  background-color: transparent;
+  height: auto;
+  left: 144px;
+  position: absolute;
+  text-align: left;
+  top: 1540px;
+  white-space: nowrap;
+  width: 303px;
+}
+.servico-descrito .titulo-JcCKXW {
+  background-color: transparent;
+  height: auto;
+  left: 657px;
+  position: absolute;
+  text-align: left;
+  top: 840px;
+  white-space: nowrap;
+  width: 303px;
+}
+.servico-descrito .titulo-UClmJY {
+  background-color: transparent;
+  height: auto;
+  left: 1171px;
+  position: absolute;
+  text-align: left;
+  top: 840px;
+  white-space: nowrap;
+  width: 303px;
+}
+.servico-descrito .titulo-Z3m5J1 {
+  background-color: transparent;
+  height: auto;
+  left: 144px;
+  position: absolute;
+  text-align: left;
+  top: 840px;
+  white-space: nowrap;
+  width: 303px;
+}
+.servico-descrito .titulo-bGh3dn {
+  background-color: transparent;
+  height: auto;
+  left: 657px;
+  position: absolute;
+  text-align: left;
+  top: 1540px;
+  white-space: nowrap;
+  width: 303px;
+}
+.servico-descrito .x2020-trino-reservados {
+  background-color: transparent;
+  height: auto;
+  left: 654px;
+  position: absolute;
+  text-align: left;
+  top: 441px;
+  white-space: nowrap;
+  width: 374px;
+}
+:root {
+  --black: rgba(0,0,0,0.8);
+  --black-2: rgba(0,0,0,0.5);
+  --black-3: rgba(0,0,0,0.6);
+  --cyan-aqua: rgba(1,255,239,1.0);
+  --dodger-blue: rgba(24,160,251,1.0);
+}
+.valign-text-middle {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}

@@ -1,0 +1,599 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+    display:block
+}
+body{
+    line-height:1
+}
+ol,ul{
+    list-style:none
+}
+blockquote,q{
+    quotes:none
+}
+blockquote:before,blockquote:after,q:before,q:after{
+    content:'';
+    content:none
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0
+}
+* {
+  box-sizing: border-box;
+}
+.border-class-1 {
+  border: 1px solid transparent;
+}
+.border-class-2 {
+  border: 1px solid var(--black-2);
+}
+.font-class-1 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.23px;
+  line-height: 24px;
+}
+.font-class-10 {
+  color: black;
+  font-family: 'Montserrat-Bold', Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.36px;
+  line-height: 36px;
+}
+.font-class-2 {
+  font-family: 'Montserrat-Medium', Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.54px;
+}
+.font-class-3 {
+  font-family: 'Montserrat-Medium', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.23px;
+}
+.font-class-4 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.27px;
+  line-height: 30px;
+}
+.font-class-5 {
+  color: black;
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.84px;
+  line-height: 80px;
+}
+.font-class-6 {
+  color: white;
+  font-family: 'Montserrat-Medium', Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.36px;
+}
+.font-class-7 {
+  color: black;
+  font-family: 'Montserrat-Bold', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.23px;
+  line-height: 24px;
+}
+.font-class-8 {
+  color: black;
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.72px;
+  line-height: 72px;
+}
+.font-class-9 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.54px;
+  line-height: 50px;
+}
+.servicos {
+  background-color: white;
+  height: 100vh;
+  margin: 0px;
+  min-height: 5360px;
+  min-width: 1680px;
+  position: relative;
+  width: 100%;
+}
+.servicos .barra-de-navegacao {
+  background-color: white;
+  height: 576px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1680px;
+}
+.servicos .blog {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% + 85px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 117px;
+  text-decoration: none;
+}
+.servicos .button {
+  background-color: var(--dodger-blue);
+  border-radius: 6px;
+  height: 40px;
+  left: 593px;
+  position: absolute;
+  top: 737px;
+  width: 130px;
+}
+.servicos .button-gQEN5b {
+  background-color: var(--dodger-blue);
+  border-radius: 6px;
+  height: 67px;
+  left: 145px;
+  position: absolute;
+  top: 554px;
+  width: 247px;
+}
+.servicos .contato {
+  background-color: white;
+  border-color: black;
+  
+  height: 961px;
+  left: 0px;
+  position: absolute;
+  top: 3693px;
+  width: 1680px;
+}
+.servicos .descricao {
+  background-color: transparent;
+  height: auto;
+  left: 4px;
+  position: absolute;
+  text-align: left;
+  top: 81px;
+  width: 688px;
+}
+.servicos .download-do-app {
+  background-color: transparent;
+  height: auto;
+  left: 1234px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+.servicos .ellipse-7wTCxV {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.servicos .ellipse-CMvW9s {
+  background-color: transparent;
+  height: 44px;
+  left: 874px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.servicos .icon-yt {
+  background-color: transparent;
+  height: 44px;
+  left: 1526px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.servicos .ellipse-edsI20 {
+  background-color: transparent;
+  height: 44px;
+  left: 810px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.servicos .icon-fb {
+  background-color: transparent;
+  height: 44px;
+  left: 1590px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.servicos .ellipse-iPe1yZ {
+  background-color: transparent;
+  height: 44px;
+  left: 938px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.servicos .icon-lk {
+  background-color: transparent;
+  height: 44px;
+  left: 1462px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.servicos .ellipse-ur51bv {
+  background-color: transparent;
+  height: 44px;
+  left: 745px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.servicos .icon-ig {
+  background-color: transparent;
+  height: 44px;
+  left: 1397px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+
+.servicos .empresa {
+  background-color: transparent;
+  height: auto;
+  left: 850px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+
+
+.servicos .fique-mais-imo-de-nos-hO7ArV {
+  background-color: transparent;
+  height: auto;
+  left: 1077px;
+  position: absolute;
+  text-align: right;
+  top: 87px;
+  white-space: nowrap;
+  width: 302px;
+}
+.servicos .fique-mais-imo-de-nos-iPe1yZ {
+  background-color: transparent;
+  height: auto;
+  left: 425px;
+  position: absolute;
+  text-align: right;
+  top: 355px;
+  white-space: nowrap;
+  width: 302px;
+}
+.servicos .footer {
+  background-color: white;
+  height: 489px;
+  left: 0px;
+  position: absolute;
+  top: 4756px;
+  width: 1680px;
+}
+.servicos .home {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% - 446px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 139px;
+  text-decoration: none;
+}
+
+.servicos .log-in-btn {
+  background-color: white;
+  border: 1px solid var(--dodger-blue);
+  color: #18A0FB;
+  border-radius: 6px;
+  height: 58px;
+  left: 667px;
+  position: absolute;
+  top: 428px;
+  width: 165px;
+}
+
+.servicos .log-in-btn:hover {
+  border-color: #0464A5;
+}
+
+.servicos .logo-trinom-JcnPAY {
+  background-color: transparent;
+  height: 144px;
+  left: 618px;
+  position: absolute;
+  top: 66px;
+  width: 345px;
+}
+.servicos .logo-trinom-WXJCCI {
+  background-color: transparent;
+  height: 315.62%;
+  left: 67.17%;
+  position: absolute;
+  top: 9.38%;
+  width: 198.24%;
+}
+.servicos .mobile-app {
+  background-color: transparent;
+  height: auto;
+  left: 1234px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+.servicos .nome-do-servico {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 99.42%;
+}
+.servicos .nome-servico {
+  background-color: transparent;
+  height: 160px;
+  left: 144px;
+  position: absolute;
+  top: 354px;
+  width: 692px;
+}
+
+.servicos .rectangle-1nd1F6 {
+  background-color: transparent;
+  height: 96.77%;
+  left: 1.73%;
+  position: absolute;
+  top: 0px;
+  width: 96.79%;
+}
+
+.servicos .rectangle-7gXIf7 {
+  background-color: transparent;
+  height: 960px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1680px;
+}
+.servicos .rectangle-CMvW9s {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 80px;
+  position: absolute;
+  top: 1px;
+  width: 1520px;
+}
+.servicos .rectangle-iPe1yZ {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 80px;
+  position: absolute;
+  top: 292px;
+  width: 1520px;
+}
+
+
+.servicos .registrar-se-btn {
+  background-color: #18A0FB;
+  border: 1px solid  #18A0FB;
+  border-radius: 6px;
+  color: white;
+  height: 58px;
+  left: 848px;
+  position: absolute;
+  top: 428px;
+  width: 165px;
+}
+
+.servicos .registrar-se-btn:hover {
+  background-color: #0464A5;
+}
+
+.servicos .sample-logo-hO7ArV {
+  background-color: transparent;
+  height: 32px;
+  left: 80px;
+  position: absolute;
+  top: 14px;
+  width: 122px;
+}
+.servicos .sample-logo-iPe1yZ {
+  background-color: transparent;
+  height: 32px;
+  left: 80px;
+  position: absolute;
+  top: 120px;
+  width: 122px;
+}
+.servicos .servico-1---servico-3 {
+  background-color: transparent;
+  height: auto;
+  left: 1043px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+.servicos .servico1 {
+  background-color: white;
+  height: 960px;
+  left: 0px;
+  position: absolute;
+  top: 2636px;
+  width: 1680px;
+}
+.servicos .servico2 {
+  background-color: white;
+  height: 960px;
+  left: 0px;
+  position: absolute;
+  top: 1606px;
+  width: 1680px;
+}
+.servicos .servicos-hO7ArV {
+  background-color: transparent;
+  color: var(--cyan-/-aqua);
+  height: auto;
+  left: calc(50.00% - 194px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 166px;
+  text-decoration: none;
+}
+.servicos .servicos-iPe1yZ {
+  background-color: transparent;
+  height: auto;
+  left: 1043px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+.servicos .servicos3 {
+  background-color: white;
+  height: 960px;
+  left: 0px;
+  position: absolute;
+  top: 576px;
+  width: 1680px;
+}
+
+.servicos .sobre {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% + 315px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 133px;
+  text-decoration: none;
+}
+.servicos .sobre-contato-blog {
+  background-color: transparent;
+  height: auto;
+  left: 850px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+  text-decoration: none;
+}
+
+
+
+.servicos .ver {
+  background-color: transparent;
+  height: 40.30%;
+  left: 26.32%;
+  position: absolute;
+  text-align: center;
+  top: 29.85%;
+  width: 55.06%;
+}
+.servicos .x2020-trino-reservados {
+  background-color: transparent;
+  height: auto;
+  left: 654px;
+  position: absolute;
+  text-align: left;
+  top: 441px;
+  white-space: nowrap;
+  width: 374px;
+}
+:root {
+  --black: rgba(0,0,0,0.8);
+  --black-2: rgba(0,0,0,0.5);
+  --cyan-aqua: rgba(1,255,239,1.0);
+  --dodger-blue: rgba(24,160,251,1.0);
+}
+.valign-text-middle {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #18A0FB;
+  
+}
+
+a:hover {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #01FFF0;
+}
+
+a.active {
+  color: #01FFF0;
+}
+
+.servicos .contato {
+  position: absolute;
+  left: 10%;
+}
+
+.servicos .titlecontact {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.servicos .subtitlecontact {
+  margin-bottom: 130px;
+  text-align: center;
+}
+
+.servicos .contato .form {
+  border: 1px solid black;
+  padding: 40px;
+}
+
+.servicos .contato .formtitle {
+  margin-bottom: 50px;
+}

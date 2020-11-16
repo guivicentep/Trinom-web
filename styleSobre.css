@@ -1,0 +1,864 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+    display:block
+}
+body{
+    line-height:1
+}
+ol,ul{
+    list-style:none
+}
+blockquote,q{
+    quotes:none
+}
+blockquote:before,blockquote:after,q:before,q:after{
+    content:'';
+    content:none
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0
+}
+* {
+  box-sizing: border-box;
+}
+.border-class-1 {
+  border: 1px solid transparent;
+}
+.border-class-2 {
+  border: 1px solid var(--black-2);
+}
+.font-class-1 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.23px;
+  line-height: 24px;
+}
+.font-class-2 {
+  font-family: 'Montserrat-Medium', Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.54px;
+}
+.font-class-3 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.27px;
+  line-height: 30px;
+}
+.font-class-4 {
+  font-family: 'Montserrat-Medium', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.23px;
+}
+.font-class-5 {
+  color: black;
+  font-family: 'Montserrat-Bold', Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.36px;
+  line-height: 36px;
+}
+.font-class-6 {
+  color: var(--black);
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.54px;
+  line-height: 50px;
+}
+.font-class-7 {
+  color: black;
+  font-family: 'Montserrat-Regular', Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.72px;
+  line-height: 72px;
+}
+.font-class-8 {
+  color: black;
+  font-family: 'Montserrat-Bold', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.23px;
+  line-height: 24px;
+}
+.font-class-9 {
+  color: white;
+  font-family: 'Montserrat-Medium', Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.36px;
+}
+.sobretrinom {
+  background-color: white;
+  height: 100vh;
+  margin: 0px;
+  min-height: 4591px;
+  min-width: 1680px;
+  position: relative;
+  width: 100%;
+}
+.sobretrinom .app {
+  background-color: white;
+  height: 1494px;
+  left: 0px;
+  position: absolute;
+  top: 2608px;
+  width: 1680px;
+}
+.sobretrinom .baixar {
+  background-color: transparent;
+  height: 45.10%;
+  left: 16.27%;
+  position: absolute;
+  text-align: center;
+  top: 27.45%;
+  width: 68.67%;
+}
+.sobretrinom .barra-de-navegacao {
+  background-color: white;
+  height: 576px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1680px;
+}
+.sobretrinom .blog {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% + 85px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 117px;
+}
+.sobretrinom .breve-desc-as-pessoas {
+  background-color: transparent;
+  height: auto;
+  left: 978px;
+  position: absolute;
+  text-align: left;
+  top: 711px;
+  width: 560px;
+}
+.sobretrinom .button-sm7rYO {
+  background-color: var(--dodger-blue);
+  border-radius: 6px;
+  height: 40px;
+  left: 593px;
+  position: absolute;
+  top: 1347px;
+  width: 130px;
+}
+.sobretrinom .button-vbxiQx {
+  background-color: var(--purple-plum);
+  border-radius: 6px;
+  height: 51px;
+  left: 775px;
+  position: absolute;
+  top: 897px;
+  width: 166px;
+}
+.sobretrinom .criacao {
+  background-color: transparent;
+  height: auto;
+  left: 978px;
+  position: absolute;
+  text-align: left;
+  top: 651px;
+  white-space: nowrap;
+  width: 560px;
+}
+.sobretrinom .download-do-app {
+  background-color: transparent;
+  height: auto;
+  left: 1234px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+.sobretrinom .ellipse-CMvW9s {
+  background-color: transparent;
+  height: 44px;
+  left: 874px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.sobretrinom .ellipse-Gr3RNd {
+  background-color: transparent;
+  height: 44px;
+  left: 608px;
+  position: absolute;
+  top: 260px;
+  width: 44px;
+}
+.sobretrinom .ellipse-MsQYnf {
+  background-color: transparent;
+  height: 44px;
+  left: 1526px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.sobretrinom .ellipse-ZAXlwz {
+  background-color: transparent;
+  height: 44px;
+  left: 1028px;
+  position: absolute;
+  top: 260px;
+  width: 44px;
+}
+.sobretrinom .ellipse-edsI20 {
+  background-color: transparent;
+  height: 44px;
+  left: 810px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.sobretrinom .ellipse-hO7ArV {
+  background-color: transparent;
+  height: 44px;
+  left: 1590px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.sobretrinom .ellipse-iPe1yZ {
+  background-color: transparent;
+  height: 44px;
+  left: 938px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.sobretrinom .ellipse-lvLTLH {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.sobretrinom .ellipse-nddZbQ {
+  background-color: transparent;
+  height: 44px;
+  left: 818px;
+  position: absolute;
+  top: 260px;
+  width: 44px;
+}
+.sobretrinom .ellipse-sxtzfd {
+  background-color: transparent;
+  height: 44px;
+  left: 1462px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.sobretrinom .ellipse-ur51bv {
+  background-color: transparent;
+  height: 44px;
+  left: 745px;
+  position: absolute;
+  top: 345px;
+  width: 44px;
+}
+.sobretrinom .ellipse-xgS9Qq {
+  background-color: transparent;
+  height: 44px;
+  left: 1397px;
+  position: absolute;
+  top: 77px;
+  width: 44px;
+}
+.sobretrinom .email {
+  background-color: transparent;
+  height: auto;
+  left: 607px;
+  position: absolute;
+  text-align: left;
+  top: 1227px;
+  white-space: nowrap;
+  width: 225px;
+}
+.sobretrinom .empresa {
+  background-color: transparent;
+  height: auto;
+  left: 850px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+.sobretrinom .entrar-em-contato {
+  background-color: transparent;
+  height: auto;
+  left: 593px;
+  position: absolute;
+  text-align: left;
+  top: 1076px;
+  white-space: nowrap;
+  width: 560px;
+}
+.sobretrinom .enviar {
+  background-color: transparent;
+  color: white;
+  height: 45.00%;
+  left: 32.31%;
+  position: absolute;
+  text-align: center;
+  top: 27.50%;
+  width: 37.69%;
+}
+.sobretrinom .equipe {
+  background-color: white;
+  height: 470px;
+  left: 0px;
+  position: absolute;
+  top: 1538px;
+  width: 1680px;
+}
+.sobretrinom .equipe-tri-om-digital {
+  background-color: transparent;
+  height: auto;
+  left: 144px;
+  position: absolute;
+  text-align: center;
+  top: 120px;
+  width: 1394px;
+}
+.sobretrinom .faca-o-dow-de-estiver {
+  background-color: transparent;
+  height: 138.89%;
+  left: 0px;
+  position: absolute;
+  text-align: center;
+  top: 141.67%;
+  width: 100%;
+}
+.sobretrinom .fique-mais-imo-de-nos-hO7ArV {
+  background-color: transparent;
+  height: auto;
+  left: 1077px;
+  position: absolute;
+  text-align: right;
+  top: 87px;
+  white-space: nowrap;
+  width: 302px;
+}
+.sobretrinom .fique-mais-imo-de-nos-iPe1yZ {
+  background-color: transparent;
+  height: auto;
+  left: 425px;
+  position: absolute;
+  text-align: right;
+  top: 355px;
+  white-space: nowrap;
+  width: 302px;
+}
+.sobretrinom .footer {
+  background-color: white;
+  height: 489px;
+  left: 0px;
+  position: absolute;
+  top: 4102px;
+  width: 1680px;
+}
+.sobretrinom .group {
+  background-color: transparent;
+  background-image: url(imgSobre/ellipse-4@2x.png);
+  background-size: 100% 100%;
+  height: 132px;
+  left: 1159px;
+  position: absolute;
+  top: 234px;
+  width: 132px;
+}
+.sobretrinom .home {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% - 446px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 139px;
+}
+.sobretrinom .image-1 {
+  background-color: transparent;
+  height: 472px;
+  left: 87px;
+  position: absolute;
+  top: 374px;
+  width: 1507px;
+}
+.sobretrinom .log-in-5z0w8j {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: 45.00%;
+  left: 32.31%;
+  position: absolute;
+  text-align: center;
+  top: 27.50%;
+  width: 36.60%;
+}
+.sobretrinom .log-in-hO7ArV {
+  background-color: white;
+  border: 1px solid var(--dodger-blue);
+  border-radius: 6px;
+  height: 58px;
+  left: 667px;
+  position: absolute;
+  top: 428px;
+  width: 165px;
+}
+.sobretrinom .logo-trinom-JcnPAY {
+  background-color: transparent;
+  height: 144px;
+  left: 618px;
+  position: absolute;
+  top: 66px;
+  width: 345px;
+}
+.sobretrinom .logo-trinom-WXJCCI {
+  background-color: transparent;
+  height: 315.62%;
+  left: 67.17%;
+  position: absolute;
+  top: 9.38%;
+  width: 198.24%;
+}
+.sobretrinom .mobile-app {
+  background-color: transparent;
+  height: auto;
+  left: 1234px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+.sobretrinom .nosso-vide-resentacao {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 100%;
+}
+.sobretrinom .parcerias {
+  background-color: transparent;
+  height: auto;
+  left: 379px;
+  position: absolute;
+  text-align: left;
+  top: 639px;
+  white-space: nowrap;
+  width: 560px;
+}
+.sobretrinom .polygon {
+  background-color: transparent;
+  height: 35.61%;
+  left: 33.90%;
+  position: absolute;
+  top: 31.82%;
+  width: 31.44%;
+}
+.sobretrinom .primeiro-nome-Gr3RNd {
+  background-color: transparent;
+  height: auto;
+  left: 383px;
+  position: absolute;
+  text-align: center;
+  top: 320px;
+  white-space: nowrap;
+  width: 496px;
+}
+.sobretrinom .primeiro-nome-ZAXlwz {
+  background-color: transparent;
+  height: auto;
+  left: 803px;
+  position: absolute;
+  text-align: center;
+  top: 320px;
+  white-space: nowrap;
+  width: 496px;
+}
+.sobretrinom .primeiro-nome-nddZbQ {
+  background-color: transparent;
+  height: auto;
+  left: 593px;
+  position: absolute;
+  text-align: center;
+  top: 320px;
+  white-space: nowrap;
+  width: 496px;
+}
+.sobretrinom .primeiro-nome-sm7rYO {
+  background-color: transparent;
+  height: auto;
+  left: 607px;
+  position: absolute;
+  text-align: left;
+  top: 1163px;
+  white-space: nowrap;
+  width: 225px;
+}
+.sobretrinom .quem-somos {
+  background-color: white;
+  height: 962px;
+  left: 0px;
+  position: absolute;
+  top: 576px;
+  width: 1680px;
+}
+.sobretrinom .rectangle-0wtTA0 {
+  background-color: transparent;
+  background-image: url(imgSobre/box18.png);
+  background-size: 100% 100%;
+  height: 76px;
+  left: 593px;
+  position: absolute;
+  top: 692px;
+  width: 173px;
+}
+.sobretrinom .rectangle-1y6bef {
+  background-color: transparent;
+  background-image: url(imgSobre/exito.jpg);
+  background-size: 100% 100%;
+  height: 76px;
+  left: 593px;
+  position: absolute;
+  top: 828px;
+  width: 173px;
+}
+.sobretrinom .rectangle-2 {
+  background-color: white;
+  height: 40px;
+  left: 593px;
+  position: absolute;
+  top: 1155px;
+  width: 237px;
+}
+.sobretrinom .rectangle-21 {
+  background-color: white;
+  height: 40px;
+  left: 850px;
+  position: absolute;
+  top: 1155px;
+  width: 237px;
+}
+.sobretrinom .rectangle-22 {
+  background-color: white;
+  height: 40px;
+  left: 593px;
+  position: absolute;
+  top: 1219px;
+  width: 494px;
+}
+.sobretrinom .rectangle-23 {
+  background-color: white;
+  height: 40px;
+  left: 593px;
+  position: absolute;
+  top: 1283px;
+  width: 494px;
+}
+.sobretrinom .rectangle-CMvW9s {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 80px;
+  position: absolute;
+  top: 1px;
+  width: 1520px;
+}
+.sobretrinom .rectangle-IirW20 {
+  background-color: transparent;
+  background-image: url();
+  background-size: 100% 100%;
+  height: 440px;
+  left: 850px;
+  position: absolute;
+  top: 80px;
+  width: 750px;
+}
+.sobretrinom .rectangle-O0CI9N {
+  background-color: transparent;
+  background-image: url(imgSobre/lefah.jpg);
+  background-size: 100% 100%;
+  height: 76px;
+  left: 337px;
+  position: absolute;
+  top: 692px;
+  width: 173px;
+}
+.sobretrinom .rectangle-YAf8zU {
+  background-color: transparent;
+  background-image: url(imgSobre/bannerTrinom.jpg);
+  background-size: 100% 100%;
+  height: 400px;
+  left: 914px;
+  position: absolute;
+  top: 180px;
+  width: 686px;
+}
+.sobretrinom .rectangle-Yp03zG {
+  background-color: white;
+  height: 722px;
+  left: 914px;
+  position: absolute;
+  top: 180px;
+  width: 686px;
+}
+.sobretrinom .rectangle-gUm7CJ {
+  background-color: transparent;
+  background-image: url(imgSobre/logo-turismo.png);
+  background-size: 100% 100%;
+  height: 76px;
+  left: 337px;
+  position: absolute;
+  top: 828px;
+  width: 173px;
+}
+.sobretrinom .rectangle-hujJs0 {
+  background-color: transparent;
+  background-image: url(imgSobre/veluart.jpg);
+  background-size: 100% 100%;
+  height: 76px;
+  left: 80px;
+  position: absolute;
+  top: 828px;
+  width: 173px;
+}
+.sobretrinom .rectangle-iPe1yZ {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 80px;
+  position: absolute;
+  top: 292px;
+  width: 1520px;
+}
+.sobretrinom .rectangle-nrXt1b {
+  background-color: transparent;
+  height: 7.90%;
+  left: 4.76%;
+  position: absolute;
+  top: 71.93%;
+  width: 10.30%;
+}
+.sobretrinom .rectangle-sm7rYO {
+  background-color: white;
+  height: 439px;
+  left: 529px;
+  position: absolute;
+  top: 1039px;
+  width: 622px;
+}
+.sobretrinom .registrar-se-B00q6Q {
+  background-color: transparent;
+  color: white;
+  height: 45.00%;
+  left: 15.38%;
+  position: absolute;
+  text-align: center;
+  top: 27.50%;
+  width: 70.44%;
+}
+.sobretrinom .registrar-se-hO7ArV {
+  background-color: var(--dodger-blue);
+  border-radius: 6px;
+  height: 58px;
+  left: 848px;
+  position: absolute;
+  top: 428px;
+  width: 165px;
+}
+.sobretrinom .sample-logo-hO7ArV {
+  background-color: transparent;
+  height: 32px;
+  left: 80px;
+  position: absolute;
+  top: 14px;
+  width: 122px;
+}
+.sobretrinom .sample-logo-iPe1yZ {
+  background-color: transparent;
+  height: 32px;
+  left: 80px;
+  position: absolute;
+  top: 120px;
+  width: 122px;
+}
+.sobretrinom .servico-1---servico-3 {
+  background-color: transparent;
+  height: auto;
+  left: 1043px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+.sobretrinom .servicos-hO7ArV {
+  background-color: transparent;
+  color: var(--dodger-blue);
+  height: auto;
+  left: calc(50.00% - 194px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 166px;
+}
+.sobretrinom .servicos-iPe1yZ {
+  background-color: transparent;
+  height: auto;
+  left: 1043px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 175px;
+}
+.sobretrinom .sobre {
+  background-color: transparent;
+  color: var(--cyan-/-aqua);
+  height: auto;
+  left: calc(50.00% + 315px);
+  position: absolute;
+  text-align: center;
+  top: 50.00%;
+  width: 133px;
+}
+.sobretrinom .sobre-contato-blog {
+  background-color: transparent;
+  height: auto;
+  left: 850px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  width: 175px;
+}
+.sobretrinom .sobrenome {
+  background-color: transparent;
+  height: auto;
+  left: 864px;
+  position: absolute;
+  text-align: left;
+  top: 1163px;
+  white-space: nowrap;
+  width: 225px;
+}
+.sobretrinom .somos-uma--nosso-lado {
+  background-color: transparent;
+  height: auto;
+  left: 82px;
+  position: absolute;
+  text-align: left;
+  top: 192px;
+  width: 752px;
+}
+.sobretrinom .tambem-tem--nosso-app {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 100%;
+}
+.sobretrinom .telefone {
+  background-color: transparent;
+  height: auto;
+  left: 607px;
+  position: absolute;
+  text-align: left;
+  top: 1291px;
+  white-space: nowrap;
+  width: 225px;
+}
+.sobretrinom .the-larges-nthusiasts {
+  background-color: transparent;
+  height: 72px;
+  left: 144px;
+  position: absolute;
+  top: 120px;
+  width: 1394px;
+}
+.sobretrinom .trinom-digital {
+  background-color: transparent;
+  height: auto;
+  left: 80px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: 752px;
+}
+.sobretrinom .video {
+  background-color: white;
+  height: 600px;
+  left: 6px;
+  position: absolute;
+  top: 2008px;
+  width: 1680px;
+}
+.sobretrinom .video-trinom {
+  background-color: transparent;
+  height: 144px;
+  left: 80px;
+  position: absolute;
+  top: 228px;
+  width: 688px;
+}
+.sobretrinom .x2020-trino-reservados {
+  background-color: transparent;
+  height: auto;
+  left: 654px;
+  position: absolute;
+  text-align: left;
+  top: 441px;
+  white-space: nowrap;
+  width: 374px;
+}
+:root {
+  --black: rgba(0,0,0,0.8);
+  --black-2: rgba(0,0,0,0.5);
+  --cyan-aqua: rgba(1,255,239,1.0);
+  --dodger-blue: rgba(24,160,251,1.0);
+  --purple-plum: rgba(155,81,224,1.0);
+}
+.valign-text-middle {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
