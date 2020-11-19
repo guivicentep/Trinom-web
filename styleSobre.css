@@ -2,11 +2,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     margin:0;
     padding:0;
     border:0;
+    font-family: 'Montserrat';
     font-size:100%;
     font:inherit;
     vertical-align:baseline;
     text-decoration: none;
-    font-family: 'Montserrat';
+    
 }
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
     display:block
@@ -166,16 +167,8 @@ table{
   top: 711px;
   width: 560px;
 }
-.sobretrinom .button-sm7rYO {
-  background-color: var(--dodger-blue);
-  border-radius: 6px;
-  height: 40px;
-  left: 593px;
-  position: absolute;
-  top: 1347px;
-  width: 130px;
-}
-.sobretrinom .button-vbxiQx {
+
+.sobretrinom .button-baixar {
   background-color: var(--purple-plum);
   border-radius: 6px;
   height: 51px;
@@ -183,6 +176,12 @@ table{
   position: absolute;
   top: 897px;
   width: 166px;
+  border-color: white;
+}
+
+.sobretrinom .button-baixar:hover {
+  background-color: plum;
+  border-color: white;
 }
 .sobretrinom .criacao {
   background-color: transparent;
@@ -219,7 +218,7 @@ table{
   top: 260px;
   width: 44px;
 }
-.sobretrinom .ellipse-MsQYnf {
+.sobretrinom .icon-yt {
   background-color: transparent;
   height: 44px;
   left: 1526px;
@@ -243,7 +242,7 @@ table{
   top: 345px;
   width: 44px;
 }
-.sobretrinom .ellipse-hO7ArV {
+.sobretrinom .icon-fb {
   background-color: transparent;
   height: 44px;
   left: 1590px;
@@ -275,7 +274,7 @@ table{
   top: 260px;
   width: 44px;
 }
-.sobretrinom .ellipse-sxtzfd {
+.sobretrinom .icon-lk {
   background-color: transparent;
   height: 44px;
   left: 1462px;
@@ -291,7 +290,7 @@ table{
   top: 345px;
   width: 44px;
 }
-.sobretrinom .ellipse-xgS9Qq {
+.sobretrinom .icon-ig {
   background-color: transparent;
   height: 44px;
   left: 1397px;
@@ -299,16 +298,7 @@ table{
   top: 77px;
   width: 44px;
 }
-.sobretrinom .email {
-  background-color: transparent;
-  height: auto;
-  left: 607px;
-  position: absolute;
-  text-align: left;
-  top: 1227px;
-  white-space: nowrap;
-  width: 225px;
-}
+
 .sobretrinom .empresa {
   background-color: transparent;
   height: auto;
@@ -319,26 +309,8 @@ table{
   white-space: nowrap;
   width: 175px;
 }
-.sobretrinom .entrar-em-contato {
-  background-color: transparent;
-  height: auto;
-  left: 593px;
-  position: absolute;
-  text-align: left;
-  top: 1076px;
-  white-space: nowrap;
-  width: 560px;
-}
-.sobretrinom .enviar {
-  background-color: transparent;
-  color: white;
-  height: 45.00%;
-  left: 32.31%;
-  position: absolute;
-  text-align: center;
-  top: 27.50%;
-  width: 37.69%;
-}
+
+
 .sobretrinom .equipe {
   background-color: white;
   height: 470px;
@@ -390,7 +362,7 @@ table{
   height: 489px;
   left: 0px;
   position: absolute;
-  top: 4102px;
+  top: 4402px;
   width: 1680px;
 }
 .sobretrinom .group {
@@ -421,18 +393,10 @@ table{
   top: 374px;
   width: 1507px;
 }
-.sobretrinom .log-in-5z0w8j {
-  background-color: transparent;
-  color: var(--dodger-blue);
-  height: 45.00%;
-  left: 32.31%;
-  position: absolute;
-  text-align: center;
-  top: 27.50%;
-  width: 36.60%;
-}
-.sobretrinom .log-in-hO7ArV {
+.sobretrinom .log-in-btn {
   background-color: white;
+  color: #18A0FB;
+  font-style: 'Montserrat';
   border: 1px solid var(--dodger-blue);
   border-radius: 6px;
   height: 58px;
@@ -524,16 +488,7 @@ table{
   white-space: nowrap;
   width: 496px;
 }
-.sobretrinom .primeiro-nome-sm7rYO {
-  background-color: transparent;
-  height: auto;
-  left: 607px;
-  position: absolute;
-  text-align: left;
-  top: 1163px;
-  white-space: nowrap;
-  width: 225px;
-}
+
 .sobretrinom .quem-somos {
   background-color: white;
   height: 962px;
@@ -562,38 +517,7 @@ table{
   top: 828px;
   width: 173px;
 }
-.sobretrinom .rectangle-2 {
-  background-color: white;
-  height: 40px;
-  left: 593px;
-  position: absolute;
-  top: 1155px;
-  width: 237px;
-}
-.sobretrinom .rectangle-21 {
-  background-color: white;
-  height: 40px;
-  left: 850px;
-  position: absolute;
-  top: 1155px;
-  width: 237px;
-}
-.sobretrinom .rectangle-22 {
-  background-color: white;
-  height: 40px;
-  left: 593px;
-  position: absolute;
-  top: 1219px;
-  width: 494px;
-}
-.sobretrinom .rectangle-23 {
-  background-color: white;
-  height: 40px;
-  left: 593px;
-  position: absolute;
-  top: 1283px;
-  width: 494px;
-}
+
 .sobretrinom .rectangle-CMvW9s {
   background-color: var(--black-2);
   height: 1px;
@@ -676,25 +600,9 @@ table{
   top: 71.93%;
   width: 10.30%;
 }
-.sobretrinom .rectangle-sm7rYO {
-  background-color: white;
-  height: 439px;
-  left: 529px;
-  position: absolute;
-  top: 1039px;
-  width: 622px;
-}
-.sobretrinom .registrar-se-B00q6Q {
-  background-color: transparent;
-  color: white;
-  height: 45.00%;
-  left: 15.38%;
-  position: absolute;
-  text-align: center;
-  top: 27.50%;
-  width: 70.44%;
-}
-.sobretrinom .registrar-se-hO7ArV {
+
+
+.sobretrinom .registrar-se-btn {
   background-color: var(--dodger-blue);
   border-radius: 6px;
   height: 58px;
@@ -767,16 +675,7 @@ table{
   top: 160px;
   width: 175px;
 }
-.sobretrinom .sobrenome {
-  background-color: transparent;
-  height: auto;
-  left: 864px;
-  position: absolute;
-  text-align: left;
-  top: 1163px;
-  white-space: nowrap;
-  width: 225px;
-}
+
 .sobretrinom .somos-uma--nosso-lado {
   background-color: transparent;
   height: auto;
@@ -796,16 +695,7 @@ table{
   white-space: nowrap;
   width: 100%;
 }
-.sobretrinom .telefone {
-  background-color: transparent;
-  height: auto;
-  left: 607px;
-  position: absolute;
-  text-align: left;
-  top: 1291px;
-  white-space: nowrap;
-  width: 225px;
-}
+
 .sobretrinom .the-larges-nthusiasts {
   background-color: transparent;
   height: 72px;
@@ -861,4 +751,43 @@ table{
  display: flex;
  flex-direction: column;
  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: #18A0FB;
+  
+}
+
+a:hover {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #01FFF0;
+}
+
+a.active {
+  color: #01FFF0;
+}
+.sobretrinom .contato {
+  position: absolute;
+  left: 10%;
+  top: 1100px;
+}
+
+.sobretrinom .titlecontact {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.sobretrinom .subtitlecontact {
+  margin-bottom: 130px;
+  text-align: center;
+}
+
+.sobretrinom .contato .form {
+  border: 1px solid black;
+  padding: 40px;
+}
+
+.sobretrinom .contato .formtitle {
+  margin-bottom: 50px;
 }
